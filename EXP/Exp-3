@@ -1,0 +1,19 @@
+Write program demonstrates how to perform morphological analysis using the NLTK library in Python.
+
+from nltk.stem import PorterStemmer, LancasterStemmer
+porter = PorterStemmer()
+lancaster = LancasterStemmer()
+words = [
+    "running", "studies", "playing",
+    "wolves", "better", "cars",
+    "connected", "flying"
+]
+print("{:<12} {:<12} {:<12}".format(
+    "Original", "Porter", "Lancaster"))
+print("-"*40)
+for word in words:
+    print("{:<12} {:<12} {:<12}".format(
+        word,
+        porter.stem(word),
+        lancaster.stem(word)
+    ))
