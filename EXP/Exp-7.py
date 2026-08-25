@@ -1,4 +1,4 @@
-Write program using the NLTK library to perform part-of-speech tagging on a text.
+#Write program using the NLTK library to perform part-of-speech tagging on a text.
 
 
 import nltk
