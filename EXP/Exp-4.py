@@ -1,5 +1,4 @@
-Implement a finite-state machine for morphological parsing. In this example, we'll create a simple machine 
-to generate plural forms of English nouns using python.
+#Implement a finite-state machine for morphological parsing. In this example, we'll create a simple machine to generate plural forms of English nouns using python.
 
 def generate_plural(noun):
     if noun.endswith("y") and len(noun) > 1 and noun[-2].lower() not in "aeiou":
