@@ -1,4 +1,4 @@
-1.	Write program demonstrates how to use regular expressions in Python to match and search for patterns in text.
+#Write program demonstrates how to use regular expressions in Python to match and search for patterns in text.
 
 import re
 text = "My email is student123@gmail.com and my phone number is 9876543210."
@@ -8,7 +8,7 @@ if match:
     print("Match found at the beginning:", match.group())
 else:
     print("No match found at the beginning.")
-pattern_search = r"\d{10}"   # Pattern for a 10-digit phone number
+pattern_search = r"\d{10}"   
 search = re.search(pattern_search, text)
 if search:
     print("Phone number found:", search.group())
