@@ -1,5 +1,4 @@
-Implement a simple stochastic part-of-speech tagging algorithm using 
-a basic probabilistic model to assign POS tags using python.
+#Implement a simple stochastic part-of-speech tagging algorithm using a basic probabilistic model to assign POS tags using python.
 
 
 pos_prob = {
