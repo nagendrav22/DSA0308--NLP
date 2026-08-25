@@ -1,4 +1,4 @@
-Write program demonstrates how to perform morphological analysis using the NLTK library in Python.
+#Write program demonstrates how to perform morphological analysis using the NLTK library in Python.
 
 import nltk
 from nltk.stem import PorterStemmer, LancasterStemmer, WordNetLemmatizer
