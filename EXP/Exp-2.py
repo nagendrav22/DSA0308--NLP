@@ -1,5 +1,4 @@
-Implement a basic finite state automaton that recognizes a specific language or pattern. In this example, we'll create 
-a simple automaton to match strings ending with 'ab' using python.
+#Implement a basic finite state automaton that recognizes a specific language or pattern. In this example, we'll create a simple automaton to match strings ending with 'ab' using python.
 
 def finite_automaton(string):
     state = "q0"
