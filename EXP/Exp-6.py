@@ -1,5 +1,4 @@
-Implement a basic N-gram model for text generation. For example, generate text using 
-a bigram model using python. 
+#Implement a basic N-gram model for text generation. For example, generate text using a bigram model using python. 
 # Morphological Analysis using NLTK (Without Porter Stemmer)
 
 
